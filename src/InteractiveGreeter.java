@@ -13,21 +13,21 @@ public class InteractiveGreeter {
         name = in.nextLine();
         System.out.println("Nice to meet you " + name + "!");
 
-            System.out.println("Where are you from?");
-            origin = in.nextLine();
+        System.out.println("Where are you from?");
+        origin = in.nextLine();
 
-                System.out.println("How old are you?");
-                age = in.nextLine();
+        System.out.println("How old are you?");
+        age = in.nextLine();
 
-                    System.out.println("You are " + age + " years old, and you are from " + origin + ".");
+        System.out.println("You are " + age + " years old, and you are from " + origin + ".");
 
-                        System.out.println("What is your favorite thing to do?");
-                        favActivity = in.nextLine();
-                        System.out.println("Have fun next time you " + favActivity + "!");
+        System.out.println("What is your favorite thing to do?");
+        favActivity = in.nextLine();
+        System.out.println("Have fun next time you " + favActivity + "!");
 
-                            System.out.println("How much would you like to donate today?");
-                            donation = in.nextLine();
-                            System.out.println("Thank you! Your donation is $" + donation + ", have a nice day!");
+        System.out.println("How much would you like to donate today?");
+        donation = in.nextLine();
+        System.out.println("Thank you! Your donation is $" + donation + ", have a nice day!");
 
 
 
